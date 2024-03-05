@@ -5,9 +5,10 @@ A program that allows you to scroll up and down by slightly tilting your head. N
 ## Technologies
 - OpenCV: Utilized for capturing video frames from the webcam, converting color spaces, and drawing overlays on the video frames for visual feedback.
 - dlib: Employed for face detection using a Histogram of Oriented Gradients (HOG) feature and facial landmark detection
+- shape_predictor_68_face_landmarks.dat: Pre-trained facial landmark detection model provided by dlib for accurately locating facial features.
 - Selenium: Integrated for web automation, enabling the opening of URLs in a browser window
 - PyAutoGUI: Used for simulating scroll actions on the system, allowing hands-free scrolling based on head movement
-- shape_predictor_68_face_landmarks.dat: Pre-trained facial landmark detection model provided by dlib for accurately locating facial features.
+
 
 ## Installation and Usage
 1. Clone the Repository
