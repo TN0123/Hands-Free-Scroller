@@ -13,9 +13,13 @@ A program that allows you to scroll up and down by slightly tilting your head. N
 ## Installation and Usage
 1. Clone the Repository
    ```sh
-   https://github.com/TN0123/Hands-Free-Scroller.git
+   git clone https://github.com/TN0123/Hands-Free-Scroller.git
    ```
-2. Run the application
+2. Install Dependencies
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the Application
    ```
    python main.py
    ```
